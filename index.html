@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO LIST</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <section class="addTodo">
+      <h2>TODOを追加する</h2>
+      <input placeholder="TODOを入力" />
+      <button type="button">追加する</button>
+    </section>
+    <section class="incompleteTodo">
+      <h2>未完了のTODO</h2>
+      <ul>
+        <li>
+          <p>TODOです</p>
+          <button type="button">完了</button>
+          <button type="button">削除</button>
+        </li>
+      </ul>
+    </section>
+    <section class="completeTodo">
+      <h2>完了したTODO</h2>
+      <ul>
+        <li>
+          <p>TODOでした</p>
+          <button type="button">未完了に戻す</button>
+        </li>
+      </ul>
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

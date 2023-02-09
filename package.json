@@ -1,0 +1,26 @@
+{
+  "name": "scss-project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "css-loader": "0.28.11",
+    "node-sass": "4.9.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-scripts": "1.1.0",
+    "sass-loader": "6.0.7",
+    "scss-loader": "0.0.1",
+    "style-loader": "0.20.3",
+    "webpack": "4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
